@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.heading{
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 17px;
+}
+.slick-prev::before {
+    color: red; /* Change to your desired color */
+    font-size: 20px; /* Optional: Change size */
+  }
+  
+  /* Right Arrow */
+  .slick-next::before {
+    color: red; /* Change to your desired color */
+    font-size: 20px; /* Optional: Change size */
+  }
+  .my{
+    min-width: max-content;
+    inset: -40px -20px auto auto;
+    transform: translate3d(-20.6667px, 60.6667px, 0px);
+  }
+  
